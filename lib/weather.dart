@@ -1,9 +1,8 @@
 import 'dart:convert';
 
-import 'package:citys/capitals_img.dart';
-import 'package:citys/countries_class.dart';
+import 'package:citys/data/countries_class.dart';
 import 'package:citys/more_info_page.dart';
-import 'package:citys/pagoda_class.dart';
+import 'package:citys/data/weather_class.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -204,7 +203,6 @@ class _WeatherPageState extends State<WeatherPage> {
       throw Exception("Error");
     }
   }
-
 
   Future<List<Countries>> getNameOfCapital() async {
     Uri url =

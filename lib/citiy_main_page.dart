@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:citys/countries_class.dart';
+import 'package:citys/data/countries_class.dart';
 import 'package:citys/weather.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
