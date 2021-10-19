@@ -1,6 +1,6 @@
-# citys
+# Citiys app with Api
 
-A new Flutter project.
+My first app with API, there's a search engine in tish project wehre, you can find capitals and find  some information about them, and in the next window you can see the weather related to this citiy
 
 ## Getting Started
 
